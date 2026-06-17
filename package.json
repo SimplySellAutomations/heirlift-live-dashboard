@@ -1,0 +1,19 @@
+{
+  "name": "heirlift-dashboard",
+  "version": "1.0.0",
+  "description": "Heirlift Estate Services — Live Executive Dashboard",
+  "main": "api/data.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "jsforce": "^1.11.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
