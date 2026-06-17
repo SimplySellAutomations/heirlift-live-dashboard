@@ -1,0 +1,19 @@
+# Heirlift Estate Services — Live Executive Dashboard
+
+## Setup on Render.com (recommended — free tier)
+
+1. Push this repo to GitHub
+2. Go to render.com → New Web Service → connect your repo
+3. Set environment variables:
+   - SF_USERNAME = kyle@simplysellnw.com
+   - SF_PASSWORD = your Salesforce password
+   - SF_TOKEN = your Salesforce security token
+4. Deploy — get a permanent URL like https://heirlift-dashboard.onrender.com
+
+## Local development
+```
+npm install
+cp .env.example .env
+# fill in .env with your SF credentials
+node server.js
+```
